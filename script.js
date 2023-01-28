@@ -1,3 +1,4 @@
+//this could become a function
 let randomMessage = Math.floor(Math.random()*3);
 let randomCity = Math.floor(Math.random()*6);
 let randomQuantity = Math.floor(Math.random()*6);
@@ -36,8 +37,10 @@ let mixedPeople = [
     "yourself"
 ]
 
+//this could become a function
 let mixedMessage = `${mixedCities[randomCity]}${incompleteMessages[randomMessage][0]} \n
 ${incompleteMessages[randomMessage][1]}${mixedQuantities[randomQuantity]}\n
 ${incompleteMessages[randomMessage][2]}${mixedPeople[randomPeople]}`;
 
+//printing the output could be a function
 console.log(mixedMessage);
