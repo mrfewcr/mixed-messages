@@ -6,4 +6,4 @@ A fun and short Codecademy project built with JavaScript that generates random m
 - Node for running locally
 
 ## Setup
-To run this project, run node.js on your terminal while you're at the directoryw here the file is at.
+To run this project, run node.js on your terminal while you're at the directory where the file is at.
